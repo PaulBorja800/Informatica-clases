@@ -9,12 +9,60 @@ print("Edad: ", edad)
 print("Esta casado?: ", esta_casado)
 
 #Tarea
-#Ejercicios 1
-"""Variables.py
-Pául Borja
-10-04-2025
-Tarea de nivel bajo de Python
+
+"""Nombre: Paúl Borja
+Fecha: 12-04-2026
+Titulo: Tarea variables
 """
+#Nivel 1
+#variables separadas
 nombre = "Paúl"
+apellido = "Borja"
 nombreCompleto = "Paúl Borja"
 pais = "Ecuador"
+ciudad = "Quito"
+edad = 16
+año = 2026
+estaCasado = False
+esVerdadero = True
+luzEncendida = True
+#Varias variables en una sola linea
+nombre, apellido, nombreCompleto, pais, ciudad, edad, año, estaCasado, esVerdadero, luzEncendida = "Paúl", "Borja", "Paúl Borja", "Ecuador", "Quito", 16, 2026, False, True, True
+
+#Nivel 2
+#Funcion type
+type(nombre)
+type(apellido)
+type(nombreCompleto)
+type(pais)
+type(ciudad)
+type(edad)
+type(año)
+type(estaCasado)
+type(esVerdadero)
+type(luzEncendida)
+#Funcion len
+len(nombre)
+len(apellido)
+print("La diferencia de carácteres entre mi nombre y apellido son: ", len(apellido)-len(nombre))
+#Declarar más variables
+numeroUno = 5
+numeroDos = 4
+total = numeroUno + numeroDos
+diferencia = numeroUno - numeroDos
+producto = numeroUno * numeroDos
+division = numeroUno / numeroDos
+residuo = numeroDos % numeroUno
+potencia = numeroUno ** numeroDos
+divisionEntera = numeroUno // numeroDos
+#Circulo
+radioCirculo = 30
+areaCirculo = 3.14159*(30**2)
+circunferenciaCirculo = 2*(3.14159*30)
+#Circulo del usuario
+radio = input()
+area = 3.14159*(radio**2)
+#Funcion input
+usuarioNombre, usuarioApellido, usuarioPais, usuarioEdad = input(), input(), input(), input()
+#Comprobar palabras reservadas
+help("keywords")
