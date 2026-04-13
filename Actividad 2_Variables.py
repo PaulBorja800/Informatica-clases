@@ -31,6 +31,7 @@ nombre, apellido, nombreCompleto, pais, ciudad, edad, año, estaCasado, esVerdad
 
 #Nivel 2
 #Funcion type
+#%%
 type(nombre)
 type(apellido)
 type(nombreCompleto)
@@ -41,6 +42,7 @@ type(año)
 type(estaCasado)
 type(esVerdadero)
 type(luzEncendida)
+#%%
 #Funcion len
 len(nombre)
 len(apellido)
