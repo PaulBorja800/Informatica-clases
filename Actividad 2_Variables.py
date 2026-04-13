@@ -9,12 +9,3 @@ print("Edad: ", edad)
 print("Esta casado?: ", esta_casado)
 
 #Tarea
-#Ejercicios 1
-"""Variables.py
-Pául Borja
-10-04-2025
-Tarea de nivel bajo de Python
-"""
-nombre = "Paúl"
-nombreCompleto = "Paúl Borja"
-pais = "Ecuador"
