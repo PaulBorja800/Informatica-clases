@@ -28,3 +28,8 @@ print(a)
 print(b)
 print(c)
 print(d)
+#Cortar textos
+print(nombreCadena[2:4])
+print(nombreCadena[-2:])
+print(nombreCadena[0:3:2])
+print(nombreCadena[::-1])
