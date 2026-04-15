@@ -4,3 +4,6 @@ Diploma 1 A
 """
 #Actividad 4 (Strings)
 
+hola = """hola me llamo paul
+soy de diploma 1 
+este es el año 2025-2026"""
