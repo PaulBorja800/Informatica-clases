@@ -4,6 +4,12 @@ Diploma 1 A
 """
 #Actividad 4 (Strings)
 
+#Texto de varias líneas
 hola = """hola me llamo paul
 soy de diploma 1 
 este es el año 2025-2026"""
+#Usar con texto
+nombre = "Paúl"
+apellido = "Borja"
+nombreCompleto = nombre + " " + apellido
+print(nombreCompleto)
