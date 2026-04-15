@@ -21,11 +21,10 @@ print("Hola, cómo te va? (\\)")
 #Cita
 print("Dijo \"Hola\"")
 #Desempaquetar cadenas
-lengua = "python"
-a, b, c, d, e, f = lengua 
+nombreCadena = "Paúl"
+print(len(nombreCadena))
+a, b, c, d = nombreCadena 
 print(a)
 print(b)
 print(c)
 print(d)
-print(e)
-print(f)
