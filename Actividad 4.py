@@ -20,3 +20,12 @@ print("Cómo te va? \n Bien, y tu?")
 print("Hola, cómo te va? (\\)")
 #Cita
 print("Dijo \"Hola\"")
+#Desempaquetar cadenas
+lengua = "python"
+a, b, c, d, e, f = lengua 
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
