@@ -67,5 +67,9 @@ usuarioNombre, usuarioApellido, usuarioPais, usuarioEdad = input(), input(), inp
 #Comprobar palabras reservadas
 help("keywords")
 
+#Método f string
+print("nombre: ", nombre, "apellido: ", apellido)
+print(f"nombre: {nombre} apellido: {apellido}")
+
 13-04-2026
 9:47
