@@ -14,5 +14,9 @@ apellido = "Borja"
 nombreCompleto = nombre + " " + apellido
 print(nombreCompleto)
 #Secuencias de escape
+#Salto de línea
 print("Cómo te va? \n Bien, y tu?")
+#Backslash
 print("Hola, cómo te va? (\\)")
+#Cita
+print("Dijo \"Hola\"")
