@@ -13,3 +13,5 @@ nombre = "Paúl"
 apellido = "Borja"
 nombreCompleto = nombre + " " + apellido
 print(nombreCompleto)
+#Secuencias de escape
+print("Cómo te va? \n Bien, y tu?")
