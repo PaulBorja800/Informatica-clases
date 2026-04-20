@@ -45,7 +45,30 @@ print(help"keywords")
 #...
 
 # ========== PARTE B ==========
+"""ancho = input("Ingrese el ancho del terreno: ") 
+largo = input("Ingrese el largo del terreno: ") 
+precio = input("Ingrese el precio por metro cuadrado: ") 
+area = ancho * largo 
+costo = area * precio 
+print("Área total: " + area) 
+print("Costo estimado: " + costo) 
+"""
 # Código corregido 
+ancho = int(input("Ingrese el ancho del terreno:", ))
+largo = int(input("Ingrese el largo del terreno: ", ))
+precio = int(input("Ingrese el precio por metro cuadrado: ", ))
+area = ancho * largo 
+costo = area * precio 
+print("Área total: ", area) 
+print("Costo estimado: ", costo) 
+
+"""Luego responde: 
+a) ¿Cuáles eran los errores principales?
+Los principales errores eran, en las variables no se establecia que tipo de dato era, y no se daba el espacio para responder.
+Mientras en os print, no se debia poner "+", sino solo una coma, porque son 2 tipos de datos diferentes
+b) ¿Por qué tu corrección sí permite obtener resultados válidos?
+porque al estar definiendo que datos son (int), sí se pueden hacer la operaciones matemáticas, y las comas en el print hacen que se puedan escribir las variables, y no sumarlas
+"""
 # ... 
 
 # ========== PARTE C ========== 
