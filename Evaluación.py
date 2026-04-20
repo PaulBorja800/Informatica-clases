@@ -30,6 +30,18 @@ c) Explica qué hace len(nombre):
 Escribe el número de caracteres que tiene el valor de la variable
 """
 #Resuesta 2:
+"""Responde con tus palabras: 
+a) ¿Qué diferencia hay entre print() e input()?:
+Print escribe en pantalla el valor de una variable, pero input pide que el usuario escriba el valor de la variable
+b) ¿Por qué un dato ingresado con input() puede dar error si se usa directamente en un cálculo?:
+Porque si el dato ingresado no es del mismo tipo que los otros datos, no se pueden hacer operaciones de calculo
+c) Explica la diferencia entre /, // y %:
+/ es una division normal, // es una division que mostrara solo el resultado entero, y % mostrara solo el residuo de la divison
+d) Escribe una instrucción que permita comprobar la versión de Python que se está usando:
+print(python --version)
+e) Escribe una instrucción que permita consultar las palabras reservadas de Python:
+print(help"keywords")
+"""
 #...
 
 # ========== PARTE B ==========
