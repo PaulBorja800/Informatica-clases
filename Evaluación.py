@@ -45,6 +45,7 @@ print(help"keywords")
 #...
 
 # ========== PARTE B ==========
+#Respuesta 3:
 """ancho = input("Ingrese el ancho del terreno: ") 
 largo = input("Ingrese el largo del terreno: ") 
 precio = input("Ingrese el precio por metro cuadrado: ") 
@@ -69,8 +70,33 @@ Mientras en os print, no se debia poner "+", sino solo una coma, porque son 2 ti
 b) ¿Por qué tu corrección sí permite obtener resultados válidos?
 porque al estar definiendo que datos son (int), sí se pueden hacer la operaciones matemáticas, y las comas en el print hacen que se puedan escribir las variables, y no sumarlas
 """
+#Respuesta 4: Crear código
+texto = "Tecnología para todos"
+print(texto.upper())
+print(len(texto))
+print(texto.count("Python"))
+print(texto.replace("Tecnología", "Programación"))
+print(texto.split())
 # ... 
 
 # ========== PARTE C ========== 
 # Programa integrador 
+#Respuesta 5:
+nombre = str(input("Dinos tu nombre: ", ))
+apellido = str(input("Dinos tu apellido: ", ))
+país = str(input("Dinos tu país: ", ))
+anchoPared = int(input("Dinos el ancho de tu pared: ", ))
+altoPared = int(input("Dinos el alto de tu pared: ", ))
+precioPared = int(input("Dinos el precio por metro cuadrad de tu pared: ", ))
+areaPared = anchoPared * altoPared
+costoTotal = areaPared * precioPared
+#Respuesta 6:
+nombre_completo = nombre + " " + apellido
+#Respuesta 7:
+print(f"Nombre: {nombre_completo}, País: {país}, Área de pared calculada: {areaPared}, Costo total: {costoTotal}")
+#Respuesta 8:
+print(nombre_completo.upper())
+print(len(nombre_completo))
+print(nombre_completo.count("a"))
+print("El costo toal es mayor a 100?: ", costoTotal>100)
 # ... 
