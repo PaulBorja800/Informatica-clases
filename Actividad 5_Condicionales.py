@@ -24,6 +24,7 @@ elif a == 0:
 else:
    print('A is a negative number')
 #Ejercicio sin if anidado
+a = int(input("Ingresa un número: ", ))
 if a > 0 and a % 2 == 0:
     print("A es positivo y par")
 else:
@@ -35,3 +36,6 @@ else:
         else:
             if a < 0 and a % 2 != 0:
                 print("A es negativo impar")
+            else:
+                if a == 0:
+                    print("A es 0")
