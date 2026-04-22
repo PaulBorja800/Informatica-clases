@@ -39,3 +39,6 @@ else:
             else:
                 if a == 0:
                     print("A es 0")
+#If en una sola linea
+edad = int(input("Ingresa tu edad: " ))
+print("eres mayor de edad") if edad > 18 else print("Eres menor de edad")
