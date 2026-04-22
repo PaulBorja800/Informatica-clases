@@ -13,3 +13,14 @@ elif a/2 != 0:
     print("A is an odd number")# A is an odd number
 else:
     print("A is 0")#A is 0
+    #if anidado
+a = 0
+if a > 0:
+   if a % 2 == 0:
+       print('A is a positive and even integer')
+   else:
+       print('A is a positive number')
+elif a == 0:
+   print('A is zero')
+else:
+   print('A is a negative number')
