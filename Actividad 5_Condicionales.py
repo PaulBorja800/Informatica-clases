@@ -13,8 +13,7 @@ elif a/2 != 0:
     print("A is an odd number")# A is an odd number
 else:
     print("A is 0")#A is 0
-    #if anidado
-a = 0
+#if anidado
 if a > 0:
    if a % 2 == 0:
        print('A is a positive and even integer')
@@ -24,3 +23,15 @@ elif a == 0:
    print('A is zero')
 else:
    print('A is a negative number')
+#Ejercicio sin if anidado
+if a > 0 and a % 2 == 0:
+    print("A es positivo y par")
+else:
+    if a < 0 and a % 2 == 0:
+        print("A es negativo par")
+    else:
+        if a > 0 and a % 2 != 0:
+            print("A es positivo impar")
+        else:
+            if a < 0 and a % 2 != 0:
+                print("A es negativo impar")
