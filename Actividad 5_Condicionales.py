@@ -5,4 +5,6 @@ Diploma 1 A
 a = 3
 if a > 0:
     print('A is a positive number')# A is a positive number
+else:
+    print("A is a negative number")# A is a negative number
 #
