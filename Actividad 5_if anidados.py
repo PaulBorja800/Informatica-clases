@@ -11,7 +11,7 @@ else:
     años_faltantes = 18 - edad
     print("Necesitas", años_faltantes, "años más para aprender a conducir.")
 #Ejercicio 2
-mi_edad = 25  # puedes cambiar este valor
+mi_edad = 16
 tu_edad = int(input("Ingrese su edad: "))
 if tu_edad > mi_edad:
     diferencia = tu_edad - mi_edad
