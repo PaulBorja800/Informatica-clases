@@ -6,13 +6,13 @@ Diploma 1 A
 nombre = str(input("Ingrese su nombre: " ))
 edad = int(input("Ingrese su edad: " ))
 puntaje = int(input("Ingrese su puntaje obtenido: " ))
-asistencia = bool(input("¿Asististe a la competencia?(TRUE/FALSE): " ))
+asistencia = int(input("Ingresa el procentaje de asistencia (0-100): " ))
 codigoInvitacion = str(input("Ingresa tu código de invitación: " ))
 #Prints:
 print("Participante: ", nombre.upper())
 print("Caracteres del nombre: ", len(nombre))
 #Promedio:
-promedio = (puntaje + asistencia)/2
+promedio = (puntaje + asistencia) / 2
 print("Promedio general: ", promedio)
 #Ingresar al evento:
 if edad >= 14:
