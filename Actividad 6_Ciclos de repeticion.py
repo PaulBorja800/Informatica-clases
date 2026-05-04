@@ -4,7 +4,7 @@ Diploma 1A
 #Ciclos de repetición
 # %%
 #Variables de control
-count = 0
+"""count = 0
 while count < 5:
     print(count)
     count = count + 1
@@ -42,4 +42,15 @@ while contador < 5:
     if contador == 3:
         break
 print("E ciclo fue interrumpido")
-# %%
+"""
+#Contraseña
+contraseña = ""
+intento = 1
+while intento < 4:
+    contraseña = str(input("Ingresa la contraseña: " ))
+    intento = intento + 1
+    if contraseña == "python123":
+        print("Acceso permitido")
+        break
+else:
+    print("Cuentas suspendida por muchos intentos")
