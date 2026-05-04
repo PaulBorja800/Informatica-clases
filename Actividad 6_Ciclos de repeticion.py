@@ -15,3 +15,19 @@ while clave != "Python":
     clave = str(input("Ingrese la clave: " ))
 else:
     print("Acceso permitido")
+#Menu simple
+opcion = ""
+while opcion != "3":
+    print("-------MENU-------")
+    print("1. Saludar")
+    print("2. Mostrar mensaje")
+    print("3. Salir")
+    opcion = str(input("Ingrese una opción: " ))
+    if opcion == "1":
+        print("Hola, bienvenido")
+    elif opcion == "2":
+        print("Estamos aprendiendo ciclos while")
+    elif opcion == "3":
+        print("Saliendo del programa")
+    else:
+        print("Opción no válida")
