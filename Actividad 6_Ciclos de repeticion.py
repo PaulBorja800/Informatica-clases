@@ -2,6 +2,7 @@
 Diploma 1A
 04-05-2026"""
 #Ciclos de repetición
+# %%
 #Variables de control
 count = 0
 while count < 5:
@@ -15,6 +16,7 @@ while clave != "Python":
     clave = str(input("Ingrese la clave: " ))
 else:
     print("Acceso permitido")
+# %%
 #Menu simple
 opcion = ""
 while opcion != "3":
@@ -31,3 +33,13 @@ while opcion != "3":
         print("Saliendo del programa")
     else:
         print("Opción no válida")
+#%%
+#Break
+contador = 0
+while contador < 5:
+    print(contador)
+    contador = contador + 1
+    if contador == 3:
+        break
+print("E ciclo fue interrumpido")
+# %%
