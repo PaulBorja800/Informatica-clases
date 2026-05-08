@@ -54,3 +54,12 @@ while intento < 4:
         break
 else:
     print("Cuentas suspendida por muchos intentos")
+# %%
+#Continue
+cuenta = 0
+while cuenta < 5:
+    cuenta = cuenta + 1
+    if cuenta == 3:
+        continue
+    print(cuenta)
+# %%
