@@ -12,3 +12,7 @@ for nota in notas:
     suma = suma + nota
 promedio = suma / len(notas)
 print(promedio)
+#Ejemplo 3
+palabra = str(input("Ingresa tu nombre y apellido: " ))
+for letra in palabra:
+    print(letra)
