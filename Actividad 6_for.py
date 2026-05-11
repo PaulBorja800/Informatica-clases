@@ -32,3 +32,11 @@ print("El total de letras es: ", total)
 companies = {"Facebook", "Google", "Apple", "Amazon", "Facebook"}
 for company in companies:
     print(company)
+#Ejemplo 6
+num = input("Ingresa un número: " )
+lista = {0, 3, 6, 54, 12}
+for number in num:
+    print(number)
+    if number == 3:
+        print("ganaste")
+        break
