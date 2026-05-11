@@ -16,3 +16,13 @@ print(promedio)
 palabra = str(input("Ingresa tu nombre y apellido: " ))
 for letra in palabra:
     print(letra)
+#Ejemplo 4
+pal = str(input("Ingresa una palabra: " ))
+vocales = 0
+consonantes = 0
+for let in pal:
+    if let == "a" or let == "e" or let == "i" or let == "o" or let == "u":
+        vocales = vocales + 1
+    else:
+        consonantes = consonantes + 1
+print("Voclaes: ", vocales, ", Consonantes: ", consonantes)
