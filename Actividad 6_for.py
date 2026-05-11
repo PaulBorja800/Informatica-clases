@@ -17,7 +17,7 @@ palabra = str(input("Ingresa tu nombre y apellido: " ))
 for letra in palabra:
     print(letra)
 #Ejemplo 4
-pal = str(input("Ingresa una palabra: " )).lower
+pal = str(input("Ingresa una palabra: " ))
 vocales = 0
 consonantes = 0
 for let in pal:
