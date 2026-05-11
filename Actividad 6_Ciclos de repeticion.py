@@ -62,4 +62,4 @@ while cuenta < 5:
     if cuenta == 3:
         continue
     print(cuenta)
-# %%
+
