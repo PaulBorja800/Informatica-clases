@@ -17,7 +17,7 @@ palabra = str(input("Ingresa tu nombre y apellido: " ))
 for letra in palabra:
     print(letra)
 #Ejemplo 4
-pal = str(input("Ingresa una palabra: " ))
+pal = str(input("Ingresa una palabra: " )).lower
 vocales = 0
 consonantes = 0
 for let in pal:
@@ -28,3 +28,7 @@ for let in pal:
 print("Voclaes: ", vocales, ", Consonantes: ", consonantes)
 total = vocales + consonantes
 print("El total de letras es: ", total)
+#Ejemplo 5
+companies = {"Facebook", "Google", "Apple", "Amazon", "Facebook"}
+for company in companies:
+    print(company)
