@@ -26,3 +26,5 @@ for let in pal:
     else:
         consonantes = consonantes + 1
 print("Voclaes: ", vocales, ", Consonantes: ", consonantes)
+total = vocales + consonantes
+print("El total de letras es: ", total)
