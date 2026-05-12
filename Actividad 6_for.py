@@ -40,3 +40,74 @@ for number in num:
     if number == 3:
         print("ganaste")
         break
+
+#Tarea
+#Ejercicio 1: Listas
+print("------- Ejercicio 1 -------")
+notas = [8.5, 6.0, 9.0, 7.0, 5.5]
+suma = 0
+aprobados = 0
+reprobados = 0
+for nota in notas:
+    suma = suma + nota
+    if nota >= 7:
+        aprobados = aprobados + 1
+    else:
+        reprobados = reprobados + 1
+promedio = suma / len(notas)
+print("La suma total de las notas es: ", suma)
+print("El promedio del curso es: ", promedio)
+print("Cantidad de aprobados: ", aprobados)
+print("Cantidad de reprobados: ", reprobados)
+
+#Ejercicio 2: Strings
+print("------- Ejercicio 2 -------")
+contrasena = "Python2026"
+letras = 0
+numeros = 0
+cantidad_o = 0
+for caracter in contrasena:
+    if caracter.isalpha():
+        letras = letras + 1
+    if caracter.isdigit():
+        numeros = numeros + 1
+    if caracter == "o":
+        cantidad_o = cantidad_o + 1
+print("Cantidad de letras: ", letras)
+print("Cantidad de números: ", numeros)
+print("Cantidad de veces que aparece la letra "o": ", cantidad_o)
+
+#Ejercico 3: Set
+print("------- Ejercicio 3 -------")
+productos = {"teclado", "mouse", "monitor", "mouse", "impresora"}
+cantidad_productos = 0
+mas_de_6 = 0
+for producto in productos:
+    cantidad_productos = cantidad_productos + 1
+    contador_letras = 0
+    for letra in producto:
+        contador_letras = contador_letras + 1
+    if contador_letras > 6:
+        mas_de_6 = mas_de_6 + 1
+print("Cantidad de productos únicos: ", cantidad_productos)
+print("Productos con más de 6 letras: ", mas_de_6)
+
+#Ejercicio 4: Break
+print("------- Ejercicio 4 -------")
+correo = str(input("Ingrese su correo electrónico: " ))
+usuario = ""
+for caracter in correo:
+    if caracter == "@":
+        break
+    usuario = usuario + caracter
+print("El nombre de usuario es: ", usuario)
+
+#Ejercicio 5: Continue
+print("------- Ejercicio 5 -------")
+telefono = input("Ingrese su número de teléfono: ")
+telefono_limpio = ""
+for caracter in telefono:
+    if caracter == " " or caracter == "-":
+        continue
+    telefono_limpio = telefono_limpio + caracter
+print("Número limpio: ", telefono_limpio)
