@@ -75,7 +75,7 @@ for caracter in contrasena:
         cantidad_o = cantidad_o + 1
 print("Cantidad de letras: ", letras)
 print("Cantidad de números: ", numeros)
-print("Cantidad de veces que aparece la letra "o": ", cantidad_o)
+print("Cantidad de veces que aparece la letra o: ", cantidad_o)
 
 #Ejercico 3: Set
 print("------- Ejercicio 3 -------")
