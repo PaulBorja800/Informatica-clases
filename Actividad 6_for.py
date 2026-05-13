@@ -111,3 +111,11 @@ for caracter in telefono:
         continue
     telefono_limpio = telefono_limpio + caracter
 print("Número limpio: ", telefono_limpio)
+
+#For in range
+figura = ""
+for i in range(1, 5):
+    for j in range(i):
+        figura += "*"
+    figura += "\n"
+figura
