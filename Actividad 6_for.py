@@ -119,3 +119,5 @@ for i in range(1, 5):
         figura += "*"
     figura += "\n"
 print(figura)
+
+"18.05.2026"
