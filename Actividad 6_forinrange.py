@@ -10,3 +10,11 @@ num = int(input("¿Hasta qué número quieres ver?: " ))
 for i in range (1, num+1):
     print(f"{numero}{"x"}{i}{"="}{i*numero}")
 
+#Ejercicio 2
+print("------- Ejercicio 2 -------")
+notas = [5, 8, 9, 7, 10]
+suma = 0
+for i in range (1, 4):
+    suma = suma + notas[i]
+promedio = suma/3
+print(promedio)
