@@ -32,3 +32,11 @@ print("------- Ejercicio 4 -------")
 for vidas in range (3,0,-1):
     print(f"{"Te quedan "}{vidas}{" vidas"}")
 print("Game over")
+
+#For anidado
+print("------- Ejercicio 5 -------")
+for fila in range (1, 4):
+    for computadora in range (1, 5):
+        nombre = input("Ingrese el nombre del estudiante: " )
+        print(f"{nombre}{" asignado a la fila: "}{fila}{" - Computadora: "}{computadora}")
+    print(f"{"Fin de la fila "}{fila}")
