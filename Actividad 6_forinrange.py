@@ -26,3 +26,9 @@ parejas = ""
 for i in range (0,6,2):
     parejas = estudiantes[i], estudiantes[i+1]
     print(f"{"Pareja "}{int(i/2+1)} {"= "}{parejas}")
+
+#Ejercicio 4
+print("------- Ejercicio 4 -------")
+for vidas in range (3,0,-1):
+    print(f"{"Te quedan "}{vidas}{" vidas"}")
+print("Game over")
