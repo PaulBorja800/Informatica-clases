@@ -121,3 +121,19 @@ for i in range(1, 5):
 print(figura)
 
 "18.05.2026"
+
+lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+suma = 0
+notas = int(input("¿Cuántas notas va a promediar?: "))
+for number in range (notas):
+    number = number + 1
+    print("Nota #", number)
+    nota = float(input("Ingresa tu nota: "))
+    suma += nota
+promedio = suma / notas
+print("el promedio es: ", promedio)
+for num in range (lista):
+    rango = int(input("¿Qué nota quieres?(1-10)")
+    if rango < 1 or rango > 10 or rango == 0:
+        print("Número inválido, intentar de nevo")
+        rango = int(input("¿Qué nota quieres?(1-10)")
