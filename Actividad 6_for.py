@@ -133,7 +133,7 @@ for number in range (notas):
 promedio = suma / notas
 print("el promedio es: ", promedio)
 for num in range (lista):
-    rango = int(input("¿Qué nota quieres?(1-10)")
+    rango = int(input("¿Qué nota quieres?(1-10)"))
     if rango < 1 or rango > 10 or rango == 0:
         print("Número inválido, intentar de nevo")
-        rango = int(input("¿Qué nota quieres?(1-10)")
+        rango = int(input("¿Qué nota quieres?(1-10)"))
