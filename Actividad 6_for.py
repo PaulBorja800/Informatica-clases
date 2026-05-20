@@ -121,7 +121,7 @@ for i in range(1, 5):
 print(figura)
 
 "18.05.2026"
-
+# For in range
 lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 suma = 0
 notas = int(input("¿Cuántas notas va a promediar?: "))
