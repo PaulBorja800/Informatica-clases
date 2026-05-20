@@ -7,7 +7,7 @@ Diploma 1A
 print("------- Ejercicio 1 -------")
 numero = int(input("Ingresa un número: " ))
 num = int(input("¿Hasta qué número quieres ver?: " ))
-for i in range (1, num+1):
+for i in range (2, num+1, 2):
     print(f"{numero}{"x"}{i}{"="}{i*numero}")
 
 #Ejercicio 2
@@ -18,3 +18,6 @@ for i in range (1, 4):
     suma = suma + notas[i]
 promedio = suma/3
 print(promedio)
+
+#Ejercicio 3
+print("------- Ejercicio 3 -------")
