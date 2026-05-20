@@ -25,4 +25,4 @@ estudiantes = ["Ana", "Luis", "María", "Carlos", "Sofía", "Mateo"]
 parejas = ""
 for i in range (0,6,2):
     parejas = estudiantes[i], estudiantes[i+1]
-    print(f"{"Pareja "}{i+1} {"= "}{parejas}")
+    print(f"{"Pareja "}{int(i/2+1)} {"= "}{parejas}")
