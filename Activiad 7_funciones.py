@@ -18,3 +18,5 @@ print("------- Ejemplo 2 -------")
 def saludar (nombre):
     print(f"Hola, {nombre}!")
 saludar ("Paúl")
+saludar ("SAntiago")
+saludar("Victoria")
