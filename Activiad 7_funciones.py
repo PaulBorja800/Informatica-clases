@@ -20,3 +20,13 @@ def saludar (nombre):
 saludar ("Paúl")
 saludar ("SAntiago")
 saludar("Victoria")
+
+# Ejemplo 3(pedir parametros):
+print("------- Ejemplo 3 -------")
+def estudiante(nombre_estudiante, curso):
+    print("=== Datos del estudiante ===")
+    print(f"Nombre: {nombre_estudiante}")
+    print(f"Curso: {curso}")
+pedirNombre = input("Ingrese el nombre del estudiante: ")
+pedirCurso = input("Ingrese el curso del estudiante: ")
+estudiante(pedirNombre, pedirCurso)
