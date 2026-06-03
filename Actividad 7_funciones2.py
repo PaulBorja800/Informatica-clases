@@ -4,14 +4,12 @@ Diploma 1 A
 """
 #Funciones
 #Ejemplo Básico:
-def obtenerMensaje():
-    mensaje = "Bienvenido al sistema"
+def obtenerMensaje(mensaje):
     return mensaje
-def GenerarNombreCompleto():
-    nombre = "Paúl"
-    apellido = "Borja"
-    espacio = ""
-    nombreCompleto = nombre + espacio + apellido
+def GenerarNombreCompleto(nombre, apellido):
+    nombreCompleto = (f"{nombre} {apellido}")
     return nombreCompleto
-print(obtenerMensaje())
-print(GenerarNombreCompleto())
+mensaje = input("Ingresa un mensaje: ")
+nombre = input("Ingresa tu nombre: ")
+apellido = input("Ingresa tu apellido: ")
+print(f"{obtenerMensaje(mensaje)}, {GenerarNombreCompleto(nombre, apellido)}")de
