@@ -12,4 +12,4 @@ def GenerarNombreCompleto(nombre, apellido):
 mensaje = input("Ingresa un mensaje: ")
 nombre = input("Ingresa tu nombre: ")
 apellido = input("Ingresa tu apellido: ")
-print(f"{obtenerMensaje(mensaje)}, {GenerarNombreCompleto(nombre, apellido)}")de
+print(f"{obtenerMensaje(mensaje)}, {GenerarNombreCompleto(nombre, apellido)}")
