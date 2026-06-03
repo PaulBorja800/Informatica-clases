@@ -43,3 +43,4 @@ elif operacion == 4:
     print(f"La respuesta de la división es: {divisionNumeros(division)}")
 else:
     print("Opción inválida, ingresar número del 1 al 4")
+print("Gracias por usar")
